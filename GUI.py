@@ -61,8 +61,10 @@ def countdown(aegisText, minText, maxText):
         if roshMaxTime > -1:
             maxText.configure(text = formatTime(roshMaxTime)+'\n')
             roshMaxTime -= 1
-        time.sleep(1)
+        
         root.update()
+
+        time.sleep(1)
      
 def reset():
     global aegisTime
