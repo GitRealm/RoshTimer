@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['GUI.py'],
-             pathex=['C:\\Users\\Mike\\source\\repos\\GitRealm\\RoshTimer'],
+             pathex=['C:\\Users\\Mike\\source\\repos\\RoshTimer'],
              binaries=[],
              datas=[],
              hiddenimports=[],
