@@ -42,29 +42,29 @@ sep2.place(relwidth=50, y=177)
 roshMaxTimer.pack()
 
 
-def countdown(aegisText, minText, maxText):
+def countdown():
     
     global aegisTime
     global roshMinTime
     global roshMaxTime
     global paused
 
-    while paused == 0: 
+    if not paused:
+        
         if aegisTime > -1:
-            aegisText.configure(text = formatTime(aegisTime))
+            aegisTimer.configure(text = formatTime(aegisTime))
             aegisTime -= 1
 
         if roshMinTime > -1:
-            minText.configure(text = formatTime(roshMinTime))
+            roshMinTimer.configure(text = formatTime(roshMinTime))
             roshMinTime -= 1
                    
         if roshMaxTime > -1:
-            maxText.configure(text = formatTime(roshMaxTime)+'\n')
+            roshMaxTimer.configure(text = formatTime(roshMaxTime)+'\n')
             roshMaxTime -= 1
-        
-        root.update()
 
-        time.sleep(1)
+    root.after(1000,countdown)
+
      
 def reset():
     global aegisTime
@@ -74,7 +74,6 @@ def reset():
     aegisTime = 300
     roshMinTime = 480
     roshMaxTime = 660
-    countdown(aegisTimer, roshMinTimer, roshMaxTimer)
 
 def formatTime(seconds):
     mins, secs = divmod(seconds, 60)
@@ -94,7 +93,6 @@ def pauseTimer():
         pauseLabel = "Resume"
 
     pauseButton.configure(text = pauseLabel)
-    countdown(aegisTimer, roshMinTimer, roshMaxTimer)
 
 
 paused = 0
@@ -104,7 +102,6 @@ pauseButton.pack(side = LEFT )
 
 resetButton = Button(frame, text = "Reset", command = reset, bg="#23272A", fg="#FFFFFF")
 resetButton.pack(side = RIGHT)
-countdown(aegisTimer, roshMinTimer, roshMaxTimer)
-
+countdown()
 root.mainloop()
 
