@@ -47,17 +47,48 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\stat.py',
    'PYMODULE'),
-  ('copy',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\copy.py',
+  ('pywintypes',
+   'C:\\Users\\Mike\\AppData\\Roaming\\Python\\Python37\\site-packages\\win32\\lib\\pywintypes.py',
    'PYMODULE'),
-  ('typing',
+  ('distutils.sysconfig',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\typing.py',
+   'studio\\shared\\python37_64\\lib\\distutils\\sysconfig.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('distutils',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tracemalloc.py',
+   'studio\\shared\\python37_64\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\random.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\bisect.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\logging\\__init__.py',
    'PYMODULE'),
   ('pickle',
    'c:\\program files (x86)\\microsoft visual '
@@ -78,6 +109,10 @@
   ('textwrap',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\copy.py',
    'PYMODULE'),
   ('gettext',
    'c:\\program files (x86)\\microsoft visual '
@@ -103,6 +138,10 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\loader.py',
    'PYMODULE'),
+  ('fnmatch',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\fnmatch.py',
+   'PYMODULE'),
   ('unittest.suite',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\suite.py',
@@ -110,10 +149,6 @@
   ('unittest.case',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\unittest\\case.py',
-   'PYMODULE'),
-  ('logging',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\logging\\__init__.py',
    'PYMODULE'),
   ('unittest.result',
    'c:\\program files (x86)\\microsoft visual '
@@ -142,38 +177,6 @@
   ('socket',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\socket.py',
-   'PYMODULE'),
-  ('shutil',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\shutil.py',
-   'PYMODULE'),
-  ('zipfile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\zipfile.py',
-   'PYMODULE'),
-  ('py_compile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\py_compile.py',
-   'PYMODULE'),
-  ('tarfile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tarfile.py',
-   'PYMODULE'),
-  ('gzip',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\gzip.py',
-   'PYMODULE'),
-  ('_compression',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_compression.py',
-   'PYMODULE'),
-  ('lzma',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\lzma.py',
-   'PYMODULE'),
-  ('bz2',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\bz2.py',
    'PYMODULE'),
   ('email.message',
    'c:\\program files (x86)\\microsoft visual '
@@ -210,18 +213,6 @@
   ('email.generator',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\email\\generator.py',
-   'PYMODULE'),
-  ('random',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\random.py',
-   'PYMODULE'),
-  ('bisect',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\bisect.py',
-   'PYMODULE'),
-  ('hashlib',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\hashlib.py',
    'PYMODULE'),
   ('email._encoded_words',
    'c:\\program files (x86)\\microsoft visual '
@@ -343,10 +334,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\tty.py',
    'PYMODULE'),
-  ('tempfile',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\tempfile.py',
-   'PYMODULE'),
   ('urllib.parse',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\urllib\\parse.py',
@@ -362,18 +349,6 @@
   ('sysconfig',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\sysconfig.py',
-   'PYMODULE'),
-  ('_osx_support',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_osx_support.py',
-   'PYMODULE'),
-  ('distutils.log',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\distutils\\log.py',
-   'PYMODULE'),
-  ('distutils',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\distutils\\__init__.py',
    'PYMODULE'),
   ('platform',
    'c:\\program files (x86)\\microsoft visual '
@@ -463,14 +438,6 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\importlib\\abc.py',
    'PYMODULE'),
-  ('importlib.util',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\util.py',
-   'PYMODULE'),
-  ('importlib.machinery',
-   'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\importlib\\machinery.py',
-   'PYMODULE'),
   ('importlib._bootstrap_external',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\importlib\\_bootstrap_external.py',
@@ -539,17 +506,89 @@
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\struct.py',
    'PYMODULE'),
-  ('fnmatch',
+  ('shutil',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\fnmatch.py',
+   'studio\\shared\\python37_64\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\gzip.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\bz2.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('typing',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\typing.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\_py_abc.py',
    'PYMODULE'),
   ('stringprep',
    'c:\\program files (x86)\\microsoft visual '
    'studio\\shared\\python37_64\\lib\\stringprep.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('tracemalloc',
    'c:\\program files (x86)\\microsoft visual '
-   'studio\\shared\\python37_64\\lib\\_py_abc.py',
+   'studio\\shared\\python37_64\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('global_hotkeys',
+   'C:\\Users\\Mike\\AppData\\Roaming\\Python\\Python37\\site-packages\\global_hotkeys\\__init__.py',
+   'PYMODULE'),
+  ('global_hotkeys.hotkey_checker',
+   'C:\\Users\\Mike\\AppData\\Roaming\\Python\\Python37\\site-packages\\global_hotkeys\\hotkey_checker.py',
+   'PYMODULE'),
+  ('global_hotkeys.keycodes',
+   'C:\\Users\\Mike\\AppData\\Roaming\\Python\\Python37\\site-packages\\global_hotkeys\\keycodes.py',
+   'PYMODULE'),
+  ('win32con',
+   'C:\\Users\\Mike\\AppData\\Roaming\\Python\\Python37\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('ctypes',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\ctypes\\_endian.py',
    'PYMODULE'),
   ('tkinter.ttk',
    'c:\\program files (x86)\\microsoft visual '

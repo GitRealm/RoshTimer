@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>modulegraph cross reference for RoshTimer.py, pyi_rth__tkinter.py</title>
+    <title>modulegraph cross reference for RoshTimer.py, pyi_rth__tkinter.py, pyi_rth_win32api.py</title>
     <style>
       .node { padding: 0.5em 0 0.5em; border-top: thin grey dotted; }
       .moduletype { font: smaller italic }
@@ -11,7 +11,7 @@
     </style>
   </head>
   <body>
-    <h1>modulegraph cross reference for RoshTimer.py, pyi_rth__tkinter.py</h1>
+    <h1>modulegraph cross reference for RoshTimer.py, pyi_rth__tkinter.py, pyi_rth_win32api.py</h1>
 
 <div class="node">
   <a name="RoshTimer.py"></a>
@@ -153,6 +153,7 @@ imports:
  &#8226;   <a href="#encodings.zlib_codec">encodings.zlib_codec</a>
  &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#global_hotkeys">global_hotkeys</a>
  &#8226;   <a href="#heapq">heapq</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#keyword">keyword</a>
@@ -160,6 +161,7 @@ imports:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pyi_rth_win32api.py">pyi_rth_win32api.py</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#reprlib">reprlib</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
@@ -172,6 +174,7 @@ imports:
  &#8226;   <a href="#types">types</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#weakref">weakref</a>
+ &#8226;   <a href="#winsound">winsound</a>
 
   </div>
 
@@ -184,6 +187,22 @@ imports:
 imports:
     <a href="#os">os</a>
  &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#RoshTimer.py">RoshTimer.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyi_rth_win32api.py"></a>
+  <a target="code" href="///C:/Users/Mike/AppData/Roaming/Python/Python37/site-packages/PyInstaller/hooks/rthooks/pyi_rth_win32api.py" type="text/plain"><tt>pyi_rth_win32api.py</tt></a>
+<span class="moduletype">Script</span>  <div class="import">
+imports:
+    <a href="#pywintypes">pywintypes</a>
 
   </div>
   <div class="import">
@@ -455,6 +474,16 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_ctypes"></a>
+  <tt>_ctypes</tt> <span class="moduletype"><tt>c:\program files (x86)\microsoft visual studio\shared\python37_64\DLLs\_ctypes.pyd</tt></span>  <div class="import">
+imported by:
+    <a href="#ctypes">ctypes</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_datetime"></a>
   <tt>_datetime</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imports:
@@ -529,7 +558,8 @@ imported by:
   <a name="_imp"></a>
   <tt>_imp</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
+    <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
 
@@ -648,7 +678,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#sysconfig">sysconfig</a>
+    <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
 
   </div>
 
@@ -958,6 +989,16 @@ imported by:
  &#8226;   <a href="#_py_abc">_py_abc</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#weakref">weakref</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_win32sysloader"></a>
+  <tt>_win32sysloader</tt> <span class="moduletype"><tt>C:\Users\Mike\AppData\Roaming\Python\Python37\site-packages\win32\_win32sysloader.pyd</tt></span>  <div class="import">
+imported by:
+    <a href="#pywintypes">pywintypes</a>
 
   </div>
 
@@ -1580,6 +1621,63 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="ctypes"></a>
+  <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/ctypes/__init__.py" type="text/plain"><tt>ctypes</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#_ctypes">_ctypes</a>
+ &#8226;   <a href="#ctypes._endian">ctypes._endian</a>
+ &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ctypes._endian">ctypes._endian</a>
+ &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
+ &#8226;   <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="ctypes._endian"></a>
+  <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/ctypes/_endian.py" type="text/plain"><tt>ctypes._endian</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ctypes">ctypes</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="ctypes.wintypes"></a>
+  <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/ctypes/wintypes.py" type="text/plain"><tt>ctypes.wintypes</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ctypes">ctypes</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="datetime"></a>
   <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/datetime.py" type="text/plain"><tt>datetime</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -1659,7 +1757,26 @@ imports:
   <div class="import">
 imported by:
     <a href="#_osx_support">_osx_support</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
  &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#distutils.text_file">distutils.text_file</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.errors"></a>
+  <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/distutils/errors.py" type="text/plain"><tt>distutils.errors</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.sysconfig">distutils.sysconfig</a>
 
   </div>
 
@@ -1678,6 +1795,48 @@ imports:
 imported by:
     <a href="#_osx_support">_osx_support</a>
  &#8226;   <a href="#distutils">distutils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.sysconfig"></a>
+  <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/distutils/sysconfig.py" type="text/plain"><tt>distutils.sysconfig</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_imp">_imp</a>
+ &#8226;   <a href="#_osx_support">_osx_support</a>
+ &#8226;   <a href="#distutils">distutils</a>
+ &#8226;   <a href="#distutils.errors">distutils.errors</a>
+ &#8226;   <a href="#distutils.text_file">distutils.text_file</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pywintypes">pywintypes</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="distutils.text_file"></a>
+  <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/distutils/text_file.py" type="text/plain"><tt>distutils.text_file</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#distutils">distutils</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#distutils.sysconfig">distutils.sysconfig</a>
 
   </div>
 
@@ -5009,6 +5168,64 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="global_hotkeys"></a>
+  <a target="code" href="///C:/Users/Mike/AppData/Roaming/Python/Python37/site-packages/global_hotkeys/__init__.py" type="text/plain"><tt>global_hotkeys</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#RoshTimer.py">RoshTimer.py</a>
+ &#8226;   <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
+ &#8226;   <a href="#global_hotkeys.keycodes">global_hotkeys.keycodes</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="global_hotkeys.hotkey_checker"></a>
+  <a target="code" href="///C:/Users/Mike/AppData/Roaming/Python/Python37/site-packages/global_hotkeys/hotkey_checker.py" type="text/plain"><tt>global_hotkeys.hotkey_checker</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
+ &#8226;   <a href="#global_hotkeys">global_hotkeys</a>
+ &#8226;   <a href="#global_hotkeys.keycodes">global_hotkeys.keycodes</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#win32api">win32api</a>
+ &#8226;   <a href="#win32con">win32con</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#global_hotkeys">global_hotkeys</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="global_hotkeys.keycodes"></a>
+  <a target="code" href="///C:/Users/Mike/AppData/Roaming/Python/Python37/site-packages/global_hotkeys/keycodes.py" type="text/plain"><tt>global_hotkeys.keycodes</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#global_hotkeys">global_hotkeys</a>
+ &#8226;   <a href="#win32con">win32con</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="grp"></a>
   <a target="code" href="" type="text/plain"><tt>grp</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
@@ -5350,6 +5567,7 @@ imported by:
  &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#runpy">runpy</a>
 
   </div>
@@ -5378,6 +5596,7 @@ imported by:
     <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
@@ -5441,6 +5660,7 @@ imported by:
  &#8226;   <a href="#_compression">_compression</a>
  &#8226;   <a href="#bz2">bz2</a>
  &#8226;   <a href="#dis">dis</a>
+ &#8226;   <a href="#distutils.text_file">distutils.text_file</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
  &#8226;   <a href="#email.generator">email.generator</a>
@@ -5876,6 +6096,8 @@ imported by:
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#bz2">bz2</a>
+ &#8226;   <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
@@ -5904,6 +6126,7 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
@@ -6269,6 +6492,27 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="pywintypes"></a>
+  <a target="code" href="///C:/Users/Mike/AppData/Roaming/Python/Python37/site-packages/win32/lib/pywintypes.py" type="text/plain"><tt>pywintypes</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_win32sysloader">_win32sysloader</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pyi_rth_win32api.py">pyi_rth_win32api.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="quopri"></a>
   <a target="code" href="///C:/program%20files%20%28x86%29/microsoft%20visual%20studio/shared/python37_64/lib/quopri.py" type="text/plain"><tt>quopri</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -6339,6 +6583,7 @@ imported by:
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#base64">base64</a>
  &#8226;   <a href="#difflib">difflib</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#email._encoded_words">email._encoded_words</a>
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
@@ -6779,6 +7024,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#base64">base64</a>
+ &#8226;   <a href="#ctypes">ctypes</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#gzip">gzip</a>
  &#8226;   <a href="#pickle">pickle</a>
@@ -6840,10 +7086,14 @@ imported by:
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#ctypes._endian">ctypes._endian</a>
  &#8226;   <a href="#datetime">datetime</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#distutils">distutils</a>
  &#8226;   <a href="#distutils.log">distutils.log</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
+ &#8226;   <a href="#distutils.text_file">distutils.text_file</a>
  &#8226;   <a href="#doctest">doctest</a>
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
  &#8226;   <a href="#email.generator">email.generator</a>
@@ -6880,6 +7130,7 @@ imported by:
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
+ &#8226;   <a href="#pywintypes">pywintypes</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#selectors">selectors</a>
@@ -7058,6 +7309,7 @@ imports:
 imported by:
     <a href="#_threading_local">_threading_local</a>
  &#8226;   <a href="#bz2">bz2</a>
+ &#8226;   <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#pydoc">pydoc</a>
@@ -7087,6 +7339,7 @@ imported by:
  &#8226;   <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#gc">gc</a>
+ &#8226;   <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
  &#8226;   <a href="#gzip">gzip</a>
  &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#http.server">http.server</a>
@@ -7751,6 +8004,7 @@ imported by:
  &#8226;   <a href="#bz2">bz2</a>
  &#8226;   <a href="#codeop">codeop</a>
  &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#distutils.sysconfig">distutils.sysconfig</a>
  &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#getpass">getpass</a>
@@ -7847,12 +8101,44 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="win32api"></a>
+  <tt>win32api</tt> <span class="moduletype"><tt>C:\Users\Mike\AppData\Roaming\Python\Python37\site-packages\win32\win32api.pyd</tt></span>  <div class="import">
+imported by:
+    <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="win32con"></a>
+  <a target="code" href="///C:/Users/Mike/AppData/Roaming/Python/Python37/site-packages/win32/lib/win32con.py" type="text/plain"><tt>win32con</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imported by:
+    <a href="#global_hotkeys.hotkey_checker">global_hotkeys.hotkey_checker</a>
+ &#8226;   <a href="#global_hotkeys.keycodes">global_hotkeys.keycodes</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="winreg"></a>
   <tt>winreg</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#mimetypes">mimetypes</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="winsound"></a>
+  <tt>winsound</tt> <span class="moduletype"><tt>c:\program files (x86)\microsoft visual studio\shared\python37_64\DLLs\winsound.pyd</tt></span>  <div class="import">
+imported by:
+    <a href="#RoshTimer.py">RoshTimer.py</a>
 
   </div>
 
