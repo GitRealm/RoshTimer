@@ -1,6 +1,7 @@
 ﻿from tkinter import *
 from tkinter import ttk
 import time 
+from global_hotkeys import *
 
 
 root = Tk()
@@ -103,5 +104,14 @@ pauseButton.pack(side = LEFT )
 resetButton = Button(frame, text = "Reset", command = reset, bg="#23272A", fg="#FFFFFF")
 resetButton.pack(side = RIGHT)
 countdown()
+
+bindings = [
+   [["control", "d"], None, reset],
+   [["control", "g"], None, pauseTimer],
+   ]
+
+register_hotkeys(bindings)
+start_checking_hotkeys()
+
 root.mainloop()
 
