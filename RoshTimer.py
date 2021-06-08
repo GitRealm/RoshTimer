@@ -2,6 +2,7 @@
 from tkinter import ttk
 import time 
 from global_hotkeys import *
+import winsound
 
 
 root = Tk()
@@ -55,17 +56,22 @@ def countdown():
         if aegisTime > -1:
             aegisTimer.configure(text = formatTime(aegisTime))
             aegisTime -= 1
+            if aegisTime == -1:
+                winsound.PlaySound("SystemExclamation",winsound.SND_ASYNC)
 
         if roshMinTime > -1:
             roshMinTimer.configure(text = formatTime(roshMinTime))
             roshMinTime -= 1
+            if roshMinTime == -1:
+                winsound.PlaySound("SystemExclamation",winsound.SND_ASYNC)
                    
         if roshMaxTime > -1:
             roshMaxTimer.configure(text = formatTime(roshMaxTime)+'\n')
             roshMaxTime -= 1
+            if roshMaxTime == -1:
+                winsound.PlaySound("SystemExclamation",winsound.SND_ASYNC)
 
     root.after(1000,countdown)
-
      
 def reset():
     global aegisTime
@@ -108,7 +114,7 @@ countdown()
 bindings = [
    [["control", "d"], None, reset],
    [["control", "g"], None, pauseTimer],
-   ]
+]
 
 register_hotkeys(bindings)
 start_checking_hotkeys()
